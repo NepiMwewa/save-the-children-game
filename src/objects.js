@@ -25,7 +25,7 @@ var spriteObject =
   speedY: 0,
   speedX: 0,
   pSpeedLimit: 3.5,
-  nSpeedLimit: -1.5,
+  nSpeedLimit: -2,
   sSpeedLimit: 2.5,
   msSpeedLimit: -2.5,
   friction: 0.90,
@@ -59,11 +59,10 @@ monsterObject = Object.create(spriteObject);
 monsterObject.sourceX = 128;
 
 monsterObject.angle = 0;
-monsterObject.rotationSpeed = 0;
 monsterObject.chaseRange = 400;
 monsterObject.attackRange = 50;
-monsterObject.speed = 2; 
-monsterObject.rotationSpeed = 0.4;
+monsterObject.speed = 1.5; 
+monsterObject.rotationSpeed = 0.8;
 
 monsterObject.alive = true;
    
