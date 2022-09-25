@@ -60,10 +60,10 @@ monsterObject.sourceX = 128;
 
 monsterObject.angle = 0;
 monsterObject.rotationSpeed = 0;
-monsterObject.chaseRange = 300;
-monsterObject.attackRange = 75;
-monsterObject.speed = 3; 
-monsterObject.rotationSpeed = 0.3;
+monsterObject.chaseRange = 400;
+monsterObject.attackRange = 50;
+monsterObject.speed = 2; 
+monsterObject.rotationSpeed = 0.4;
 
 monsterObject.alive = true;
    
